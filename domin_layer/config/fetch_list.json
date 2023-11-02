@@ -1,0 +1,70 @@
+{
+    "getUserAccount": {
+        "method": "GET",
+        "url": "http:localhost:3300/api/user/getAccountDatas"
+    },
+    "createUserAccount": {
+        "method": "POST",
+        "url": "http:localhost:3300/api/user/createAccount"
+    },
+    "updateUserAccount": {
+        "method": "PUT",
+        "url": "http:localhost:3300/api/user/updateAccount"
+    },
+    "updateBalanceOfAccount": {
+        "method": "PUT",
+        "url": "http:localhost:3300/api/user/updateBalanceOfAccount"
+    },
+    "softDeleteAccount": {
+        "method": "DELETE",
+        "url": "http:localhost:3300/api/user/softDeleteAccount"
+    },
+    "getItemCategoryDatas": {
+        "method": "GET",
+        "url": "http:localhost:3300/api/user/getItemCategoryDatas"
+    },
+    "createItemCategory": {
+        "method": "POST",
+        "url": "http:localhost:3300/api/user/createItemCategory"
+    },
+    "updateItemCategory": {
+        "method": "PUT",
+        "url": "http:localhost:3300/api/user/updateItemCategory"
+    },
+    "softDeleteItemCategory": {
+        "method": "DELETE",
+        "url": "http:localhost:3300/api/user/softDeleteItemCategory"
+    },
+    "getItemDatas": {
+        "method": "GET",
+        "url": "http:localhost:3300/api/user/getItemDatas"
+    },
+    "createItem": {
+        "method": "POST",
+        "url": "http:localhost:3300/api/user/createItem"
+    },
+    "updateItem": {
+        "method": "PUT",
+        "url": "http:localhost:3300/api/user/updateItem"
+    },
+    "softDeleteItem": {
+        "method": "DELETE",
+        "url": "http:localhost:3300/api/user/softDeleteItem"
+    },
+    "getUserItemDatas": {
+        "method": "GET",
+        "url": "http:localhost:3300/api/user/getUserItemDatas"
+    },
+    "createUserItem": {
+        "method": "POST",
+        "url": "http:localhost:3300/api/user/createUserItem"
+    },
+    "updateBalanceOfUserItem": {
+        "method": "PUT",
+        "url": "http:localhost:3300/api/user/updateBalanceOfUserItem"
+    },
+    "softDeleteUserItem": {
+        "method": "DELETE",
+        "url": "http:localhost:3300/api/user/softDeleteUserItem"
+    }
+}

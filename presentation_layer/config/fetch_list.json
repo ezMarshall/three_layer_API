@@ -1,0 +1,84 @@
+{
+    "getList": {
+        "accountDatas": {
+            "url": "http:localhost:3200/api/user/accountDatas",
+            "hasLogin": true,
+            "defaultResponse": {}
+        },
+        "backpack": {
+            "url": "http:localhost:3200/api/user/backpack",
+            "hasLogin": true,
+            "defaultResponse": []
+        }
+    },
+    "postList": {
+        "login": {
+            "url": "http:localhost:3200/api/user/login",
+            "hasLogin": false
+        },
+        "register": {
+            "url": "http:localhost:3200/api/user/register",
+            "hasLogin": false
+        },
+        "logout": {
+            "url": "",
+            "hasLogin": true
+        },
+        "createItemCategory": {
+            "url": "http:localhost:3200/api/user/createItemCategory",
+            "hasLogin": true
+        },
+        "searchItemCategoryDatas": {
+            "url": "http:localhost:3200/api/user/searchItemCategoryDatas",
+            "hasLogin": true
+        },
+        "createItem": {
+            "url": "http:localhost:3200/api/user/createItem",
+            "hasLogin": true
+        },
+        "createUserItem": {
+            "url": "http:localhost:3200/api/user/createUserItem",
+            "hasLogin": true
+        }
+    },
+    "putList": {
+        "password": {
+            "url": "http:localhost:3200/api/user/password",
+            "hasLogin": true
+        },
+        "level": {
+            "url": "http:localhost:3200/api/user/level",
+            "hasLogin": true
+        },
+        "itemCategory": {
+            "url": "http:localhost:3200/api/user/itemCategory",
+            "hasLogin": true
+        },
+        "item": {
+            "url": "http:localhost:3200/api/user/item",
+            "hasLogin": true
+        },
+        "userItemAmount": {
+            "url": "http:localhost:3200/api/user/userItemAmount",
+            "hasLogin": true
+        }
+    },
+    "deleteList": {
+        "account": {
+            "url": "http:localhost:3200/api/user/account",
+            "hasLogin": true
+        },
+        "itemCategory": {
+            "url": "http:localhost:3200/api/user/itemCategory",
+            "hasLogin": true
+        },
+        "item": {
+            "url": "http:localhost:3200/api/user/item",
+            "hasLogin": true
+        },
+        "userItem": {
+            "url": "http:localhost:3200/api/user/userItem",
+            "hasLogin": true
+        }
+    }
+}
